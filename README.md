@@ -55,7 +55,7 @@
 
 1. Създайте акаунт и клъстър в [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
 2. Създайте потребител и задайте права за достъп.
-3. Получете връзков низ (Connection String), например:
+3. Получете (Connection String), например:
     ```
     mongodb+srv://<username>:<password>@<cluster-url>/VAGDealership
     ```
@@ -65,6 +65,6 @@
         mongosh "mongodb+srv://<username>:<password>@<cluster-url>/VAGDealership"
         ```
     - **MongoDB Compass:**
-        - Стартирайте приложението и въведете връзковия низ.
+        - Стартирайте приложението и въведете Connection String.
 5. Импортирайте или създайте колекциите и документите според описаната структура.
 
